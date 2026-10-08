@@ -5,6 +5,7 @@ import starlightSidebarTopics from 'starlight-sidebar-topics';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://freelance-guide-asp.pages.dev',
 	integrations: [
 		starlight({
 			title: 'Справочник фрилансера',
