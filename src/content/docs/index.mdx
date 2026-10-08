@@ -1,0 +1,33 @@
+---
+title: "Справочник фрилансера"
+description: "Как делать фриланс-проекты: порядок работы по каждому типу заказа."
+template: splash
+hero:
+  tagline: Порядок работы, шаблоны и чек-листы по всем типам фриланс-заказов.
+  actions:
+    - text: Начать со старта
+      link: /start/
+      icon: right-arrow
+    - text: Процесс заказа
+      link: /process/
+      variant: minimal
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+## Разделы
+
+<CardGrid>
+  <LinkCard title="Старт" description="Как устроен фриланс: площадки, профиль, кворки, цены, отклики." href="/start/" />
+  <LinkCard title="Telegram-боты" description="Боты на Python: меню, кнопки, база данных, баллы и уровни, деплой." href="/telegram-bots/" />
+  <LinkCard title="Парсеры и скрипты" description="Сбор данных с сайтов и автоматизация задач на Python." href="/parsers/" />
+  <LinkCard title="Сайты и лендинги" description="HTML, CSS, JS, адаптив, формы, SEO, хостинг." href="/websites/" />
+  <LinkCard title="Вёрстка по макету" description="Перенос макета Figma в код." href="/layout/" />
+  <LinkCard title="WordPress" description="Темы, плагины, правки и безопасность." href="/wordpress/" />
+  <LinkCard title="Автоматизация" description="n8n и другие сервисы: триггеры, вебхуки, интеграции." href="/automation/" />
+  <LinkCard title="Данные: Excel, PDF, SQL" description="Очистка, таблицы из PDF, отчёты." href="/data/" />
+  <LinkCard title="Тексты и контент" description="Описания, лендинги, кворки." href="/content/" />
+  <LinkCard title="Процесс заказа" description="От брифа до сдачи и архива." href="/process/" />
+  <LinkCard title="Шаблоны" description="Копируемые заготовки: бриф, ТЗ, сообщения, чек-лист сдачи." href="/templates/" />
+  <LinkCard title="Инструменты" description="Claude Code: агенты, навыки, коннекторы." href="/tools/" />
+</CardGrid>
